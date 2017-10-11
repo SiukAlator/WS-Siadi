@@ -5,6 +5,7 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/proyectos/WS_siadi/skeleton/api/');
+	//header('Location: '.$uri.'/proyectos/WS_siadi/skeleton/api/');
+	header('Location: '.$uri.'/WS-Siadi/skeleton/api/');
 	exit;
 ?>
